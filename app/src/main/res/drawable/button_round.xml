@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下状态 -->
+    <item android:state_pressed="true">
+        <shape>
+            <!-- 圆角 -->
+            <corners android:radius="8dp"/>
+            <!-- 渐变 -->
+            <gradient/>
+            <!-- 填充 -->
+            <solid android:color="@color/button_pressed"/>
+            <!-- 描边 -->
+            <stroke android:color="@color/button_stroke" android:width="1dp"/>
+        </shape>
+    </item>
+    <!-- 普通状态 -->
+    <item>
+        <shape>
+            <!-- 圆角 -->
+            <corners android:radius="8dp"/>
+            <!-- 渐变 -->
+            <gradient/>
+            <!-- 填充 -->
+            <solid android:color="@color/button_normal"/>
+            <!-- 描边 -->
+            <stroke android:color="@color/button_stroke" android:width="1dp"/>
+        </shape>
+    </item>
+</selector>
